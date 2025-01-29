@@ -1,0 +1,10 @@
+<svg width="70" height="70" viewBox="0 0 406 368" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="gradient1" x1="100" y1="50" x2="100" y2="200" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#1595B6"/>
+      <stop offset="100%" stop-color="#1595B6" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <path d="M100 50 C50 50, 50 100, 100 100 S150 150, 100 150 C50 150, 50 200, 100 200"
+    stroke="url(#gradient1)" stroke-width="10" fill="none"/>
+</svg>
