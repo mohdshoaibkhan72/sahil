@@ -75,3 +75,20 @@ var swiper = new Swiper(".mySwiper", {
     slideShadows: false,
   },
 });
+document.addEventListener("DOMContentLoaded", () => {
+  const tabButtons = document.querySelectorAll(".tab-button");
+  const skillCategories = document.querySelectorAll(".skill-category");
+
+  tabButtons.forEach((button) => {
+    button.addEventListener("click", () => {
+      document.querySelector(".tab-button.active").classList.remove("active");
+      document
+        .querySelector(".skill-category.active")
+        .classList.remove("active");
+
+      button.classList.add("active");
+      const category = button.getAttribute("data-category");
+      document.getElementById(`${category}-skills`).classList.add("active");
+    });
+  });
+});
